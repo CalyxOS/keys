@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a736b0c7_94b4b5fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-16T20:06:15Z",
+      "side": 1,
+      "message": "I noticed\n\n\u003e tangorpro           signing: UwbVendorService.apk                                (device/google/gs-common/uwb-certs/com.qorvo.uwb)",
+      "revId": "454a3eafb5cf561f548d365111ccdf4ae54aee52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
