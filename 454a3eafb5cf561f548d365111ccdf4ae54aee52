@@ -16,6 +16,23 @@
       "message": "I noticed\n\n\u003e tangorpro           signing: UwbVendorService.apk                                (device/google/gs-common/uwb-certs/com.qorvo.uwb)",
       "revId": "454a3eafb5cf561f548d365111ccdf4ae54aee52",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11a1293b_e391f5bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-10-17T19:48:25Z",
+      "side": 1,
+      "message": "Won\u0027t pick to 13 because setup changed quite a bit (and thus this won\u0027t pick cleanly), we\u0027ll just switch branches to main or merge entirely.",
+      "revId": "454a3eafb5cf561f548d365111ccdf4ae54aee52",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
