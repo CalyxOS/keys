@@ -34,6 +34,24 @@
       "parentUuid": "416cf385_ccdd7315",
       "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34d78294_0b67ced4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T21:14:53Z",
+      "side": 1,
+      "message": "1. It looked like com.android.vndk.current was renamed to com.android.vndk. The deletions are symlink deletions so they could be re-pointed at the correct filenames in shared/.\n\nI built bluejay.\n\n2. Yes, they\u0027re all copied from AOSP.",
+      "parentUuid": "35d33001_b92889ad",
+      "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
