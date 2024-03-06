@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c02ce99_72a64888",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-06T23:40:54Z",
+      "side": 1,
+      "message": "aml build script expects to be able to find it in shared/, doesn\u0027t care about anywhere else but I was trying to copy the structure",
+      "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
