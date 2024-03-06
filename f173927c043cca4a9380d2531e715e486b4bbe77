@@ -16,6 +16,24 @@
       "message": "I don\u0027t know if this is correct. I made adjustments based on what I saw when trying to sign.",
       "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35d33001_b92889ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-06T21:10:48Z",
+      "side": 1,
+      "message": "1. We usually don\u0027t delete anything. We\u0027ve done it in the past for conflicts, but typically we don\u0027t.\n\nVNDK differs between devices, and user and userdebug, what did you build?\n\n2. As long all the files here were copied from their actual locations in AOSP and not freshly generated somehow, we\u0027re good - that is the intention of this repo / set of keys, to have a copy of the key material in AOSP, but in the folder structure that we use for signing.",
+      "parentUuid": "416cf385_ccdd7315",
+      "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
