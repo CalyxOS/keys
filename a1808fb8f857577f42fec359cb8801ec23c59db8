@@ -69,6 +69,24 @@
       "parentUuid": "97a0e1f5_9e7842e9",
       "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f1e8e02_158c7174",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T21:03:55Z",
+      "side": 1,
+      "message": "Okay great, done in latest build script.",
+      "parentUuid": "c0fae469_2d74ec97",
+      "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
