@@ -16,6 +16,23 @@
       "message": "aml build script expects to be able to find it in shared/, doesn\u0027t care about anywhere else but I was trying to copy the structure",
       "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb738d12_bcef79dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-07T13:11:28Z",
+      "side": 1,
+      "message": "Is this for qpr2/mar24 or aml?\n\nThis should always match prod setup, and thus keep in sync with vendor/calyx.\n\nI\u0027m not sure what kind of out of band signing we\u0027ll be doing for Connectivity just yet.",
+      "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
