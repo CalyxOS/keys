@@ -70,6 +70,23 @@
       "parentUuid": "34d78294_0b67ced4",
       "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "062470ca_53ce76b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T13:06:17Z",
+      "side": 1,
+      "message": "We reuse the com.android.vndk.current keys in this change: https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/25040\n\nSo maybe leave those alone here...?",
+      "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
