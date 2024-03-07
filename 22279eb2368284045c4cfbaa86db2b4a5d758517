@@ -16,6 +16,24 @@
       "message": "With both this change, and this: https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/25040\n\nNow it\u0027s just this (preexisting differences?):\n```\nvendor/calyx/scripts/mkkeys.sh keys/sunfish \u0027/C\u003dUS/ST\u003dNew York/L\u003dRochester/O\u003dCalyx/OU\u003dSigningForTest/CN\u003dSignForTest/emailAddress\u003dtestsign@example.com\u0027\n# ...\ngit diff --stat --diff-filter\u003dACDR keys/sunfish ~/android/calyxos/android14-porting/calyx/keys/aosp-test-keys/sunfish\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/bluetooth.pk8}             | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/bluetooth.x509.pem}        | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/fsverity-release.x509.der} | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/testkey.pk8}               | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/testkey.x509.pem}          | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/verity_key}                | 1 +\n 6 files changed, 6 insertions(+)\n```",
       "revId": "22279eb2368284045c4cfbaa86db2b4a5d758517",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb9fcc47_8cff09d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-07T15:28:05Z",
+      "side": 1,
+      "message": "testkey is fine, AOSP calls it that, prod calls it releasekey, so we copy + symlink.\n\nverity_key is a leftover, fsverity-release.x509.der too. They predate avb_custom_key.img\n\nNot sure about bluetooth but that\u0027s not a QPR2 issue",
+      "parentUuid": "6c3d6482_a5e853b2",
+      "revId": "22279eb2368284045c4cfbaa86db2b4a5d758517",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
