@@ -33,6 +33,24 @@
       "message": "Is this for qpr2/mar24 or aml?\n\nThis should always match prod setup, and thus keep in sync with vendor/calyx.\n\nI\u0027m not sure what kind of out of band signing we\u0027ll be doing for Connectivity just yet.",
       "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97a0e1f5_9e7842e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T13:42:50Z",
+      "side": 1,
+      "message": "It\u0027s for aml.\n\nI see now in metadata we have releasekey for container, com.android.tethering for payload...\n\n[apex.bzl](https://cs.android.com/android/platform/superproject/main/+/d48f0b6499f5952fad13260838b0a49ee7b88f1e:build/bazel/rules/apex/apex.bzl;l\u003d852) signs uncompressed and compressed with the same key, but now I think I realize there are three signing occurrences: payload, container, compressed container. Container and compressed container should be the same, which means they should be releasekey.\n\naml build script will need to get this info from somewhere. I guess I should see about having it use the metadata file?",
+      "parentUuid": "cb738d12_bcef79dc",
+      "revId": "a1808fb8f857577f42fec359cb8801ec23c59db8",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
