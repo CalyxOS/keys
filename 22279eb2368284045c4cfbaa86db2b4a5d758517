@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c3d6482_a5e853b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-03-07T15:12:24Z",
+      "side": 1,
+      "message": "With both this change, and this: https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/25040\n\nNow it\u0027s just this (preexisting differences?):\n```\nvendor/calyx/scripts/mkkeys.sh keys/sunfish \u0027/C\u003dUS/ST\u003dNew York/L\u003dRochester/O\u003dCalyx/OU\u003dSigningForTest/CN\u003dSignForTest/emailAddress\u003dtestsign@example.com\u0027\n# ...\ngit diff --stat --diff-filter\u003dACDR keys/sunfish ~/android/calyxos/android14-porting/calyx/keys/aosp-test-keys/sunfish\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/bluetooth.pk8}             | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/bluetooth.x509.pem}        | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/fsverity-release.x509.der} | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/testkey.pk8}               | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/testkey.x509.pem}          | 1 +\n /{dev/null \u003d\u003e .../calyx/keys/aosp-test-keys/sunfish/verity_key}                | 1 +\n 6 files changed, 6 insertions(+)\n```",
+      "revId": "22279eb2368284045c4cfbaa86db2b4a5d758517",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
