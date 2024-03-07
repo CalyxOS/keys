@@ -87,6 +87,24 @@
       "message": "We reuse the com.android.vndk.current keys in this change: https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/25040\n\nSo maybe leave those alone here...?",
       "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe1b55cb_6f0550ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-03-07T13:13:51Z",
+      "side": 1,
+      "message": "Yes!\n\nThe filenames here should match what we have with `mkkeys.sh` aka the prod setup.\nThe key content itself should come from AOSP.\n\nSo if you run mkkeys.sh, and do a git diff --stat against this - it\u0027d be empty",
+      "parentUuid": "062470ca_53ce76b3",
+      "revId": "f173927c043cca4a9380d2531e715e486b4bbe77",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
