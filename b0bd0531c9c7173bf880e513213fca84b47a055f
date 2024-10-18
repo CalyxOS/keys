@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6795685b_206cfe3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-10-18T18:58:06Z",
+      "side": 1,
+      "message": "This is how I found out that authsecret key doesn\u0027t exist, because I was trying to find it to copy it here.",
+      "revId": "b0bd0531c9c7173bf880e513213fca84b47a055f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
