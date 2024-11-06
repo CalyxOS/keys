@@ -16,6 +16,24 @@
       "message": "Do you want me to symlink these to the same place I symlinked things to in the 14 QPR2 change?: axolotl barbet bluejay bramble cheetah devon felix FP4 FP5 hawao husky lynx oriole panther pre-sunfish raven redfin rhode shiba sunfish tangorpro\n\nAlso, I guess we will want this for 14?\n\nAre these aosp-test-keys referenced by anything? Is the symlinking necessary as part of some script?",
       "revId": "f2b31799d30544fedda7e7dea073bda5829e8a7a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95800891_c5603061",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-06T22:50:05Z",
+      "side": 1,
+      "message": "How did you get these keys? You copied them from the AOSP locations, right? No `make_key`\n\nI don\u0027t see the 14QPR2 change, can you link it?\n\nSymlink is necessary yes, to actually use the keys.\n\nWe\u0027ll pick all of the commits we did in 15 to 14, yeah.\n\nThey aren\u0027t referenced by anything, just used as a set to have the same structure as what we use for signing, so it can be used with the same scripts.",
+      "parentUuid": "aa70583e_a38ba550",
+      "revId": "f2b31799d30544fedda7e7dea073bda5829e8a7a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
