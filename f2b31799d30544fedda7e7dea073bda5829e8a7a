@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa70583e_a38ba550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-06T22:07:06Z",
+      "side": 1,
+      "message": "Do you want me to symlink these to the same place I symlinked things to in the 14 QPR2 change?: axolotl barbet bluejay bramble cheetah devon felix FP4 FP5 hawao husky lynx oriole panther pre-sunfish raven redfin rhode shiba sunfish tangorpro\n\nAlso, I guess we will want this for 14?\n\nAre these aosp-test-keys referenced by anything? Is the symlinking necessary as part of some script?",
+      "revId": "f2b31799d30544fedda7e7dea073bda5829e8a7a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
