@@ -34,6 +34,24 @@
       "parentUuid": "aa70583e_a38ba550",
       "revId": "f2b31799d30544fedda7e7dea073bda5829e8a7a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be14ae41_84b39483",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000062
+      },
+      "writtenOn": "2024-11-07T13:55:30Z",
+      "side": 1,
+      "message": "\u003e How did you get these keys? You copied them from the AOSP locations, right? No `make_key`\n\nCopied them from their locations in AOSP, using this as a reference when I couldn\u0027t remember where to copy from or when `find packages -name \u0027*.x509.pem\u0027` wasn\u0027t cutting it (since they aren\u0027t all in there): https://review.calyxos.org/c/CalyxOS/vendor_calyx/+/31895/5/scripts/release.sh\n\n\u003e I don\u0027t see the 14QPR2 change, can you link it?\n\nThis was what I meant by the 14 QPR2 change: https://review.calyxos.org/c/CalyxOS/keys/+/25034\n\n..just that I would symlink to whichever same device folders were used there. I was going to symlink within all */ originally, but there are older, unsupported devices in there so I got confused.\n\n\u003e They aren\u0027t referenced by anything, just used as a set to have the same structure as what we use for signing, so it can be used with the same scripts.\n\nOkay, I see what you mean.",
+      "parentUuid": "95800891_c5603061",
+      "revId": "f2b31799d30544fedda7e7dea073bda5829e8a7a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
