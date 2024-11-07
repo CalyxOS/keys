@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e2442e1_ff3d4572",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2024-11-07T14:44:44Z",
+      "side": 1,
+      "message": "`    (cd \"$device\" \u0026\u0026 ln -s ../\"$key\" .)`",
+      "range": {
+        "startLine": 27,
+        "startChar": 4,
+        "endLine": 27,
+        "endChar": 36
+      },
+      "revId": "cd5b4c22efb9f0f9b7a83bb9dd195b557e6a5328",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
